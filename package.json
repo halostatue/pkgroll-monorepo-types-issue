@@ -1,0 +1,15 @@
+{
+  "name": "pkgroll-monorepo-types-issue",
+  "private": true,
+  "license": "ISC",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "pnpm recursive run build"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.2",
+    "@types/node": "^20.11.24",
+    "pkgroll": "2.0.1",
+    "typescript": "^5.3.3"
+  }
+}

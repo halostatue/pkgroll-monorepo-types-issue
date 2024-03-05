@@ -1,0 +1,21 @@
+{
+  "name": "@org/two",
+  "type": "module",
+  "version": "0.0.0",
+  "module": "./dist/index.mjs",
+  "exports": {
+    "import": {
+      "default": "./dist/index.mjs"
+    }
+  },
+  "scripts": {
+    "build": "tsc --noEmit && pkgroll"
+  },
+  "license": "CC0",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "devDependencies": {
+    "@org/one": "workspace:*"
+  }
+}
